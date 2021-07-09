@@ -68,7 +68,7 @@ function App() {
                         isLabelVisible={false}
                     />
                 </div>
-                {toxicRating === 100 ? "Your toxicity is over 9000!" : null}
+                {toxicRating >= 100 ? "Your toxicity is over 9000!" : null}
             </div>
         </Parent>
     );
